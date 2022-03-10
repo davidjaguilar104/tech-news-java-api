@@ -63,6 +63,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- Added line 67 code to avoid error on line 65, may not be recommended for some reason -->
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>
